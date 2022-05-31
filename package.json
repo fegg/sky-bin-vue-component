@@ -1,6 +1,6 @@
 {
   "name": "sky-bin-vue-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "components build tools power by arco-vue-scripts",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -14,6 +14,10 @@
   },
   "author": "lulin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fegg/sky-bin-vue-component.git"
+  },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "eslint --fix",
