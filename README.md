@@ -13,7 +13,9 @@
 {
   "scripts": {
     "dev:component": "sky-bin-vue-component dev:component",
-    "build:component": "sky-bin-vue-component build:component"
+    "build:component": "sky-bin-vue-component build:component",
+    "dev:lib": "sky-bin-vue-component dev:lib",
+    "build:lib": "sky-bin-vue-component build:lib",
   }
 }
 ```
@@ -26,10 +28,15 @@
 
 - vue template
 - vue jsx
+- ts 代码库开发
 
 ## 注意
 
 此脚本暂不支持不打包 css 等样式文件，目前打包组件的根路径还未开放定制，必须是 `<root>/components/index.ts` 作为组件导出入口。
+
+### 纯脚本代码库
+
+入口文件编译目录固定为：`<root>/src/index.ts`
 
 ## 后期
 
